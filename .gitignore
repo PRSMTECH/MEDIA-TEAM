@@ -46,3 +46,5 @@ logs/
 
 # Dependencies (if any npm tools added later)
 node_modules/
+*.tmp
+tmpclaude-*
