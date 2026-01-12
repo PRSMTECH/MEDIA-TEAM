@@ -1,0 +1,48 @@
+# PRSMTECH MEDIA-TEAM .gitignore
+
+# Environment files
+.env
+.env.*
+.env.local
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large media files (track with Git LFS or exclude)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.psd
+*.ai
+*.indd
+*.prproj
+*.aep
+
+# Exported/rendered files (re-generate from source)
+/exports/
+/renders/
+/output/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Dependencies (if any npm tools added later)
+node_modules/
